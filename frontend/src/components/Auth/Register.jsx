@@ -28,7 +28,8 @@ const Register = () => {
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
       <div className="w-full max-w-sm bg-white shadow-md rounded-xl p-8">
-        <h1 className="text-2xl font-semibold text-center mb-6">Create Account</h1>
+        <p className="text-sm text-center text-gray-500 mb-1">Join Loopback</p>
+        <h1 className="text-2xl font-semibold text-center mb-6">Create Your Account</h1>
         {error && (
           <p className="bg-red-50 text-red-600 text-sm rounded-md p-2 mb-4">{error}</p>
         )}
